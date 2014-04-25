@@ -1,4 +1,5 @@
 <?php
+//Modify by Dajo
 # MantisBT - a php based bugtracking system
 
 # MantisBT is free software: you can redistribute it and/or modify
