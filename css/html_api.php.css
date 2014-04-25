@@ -1,0 +1,189 @@
+/* +HEADER */
+.dajo_header{
+  width: 500px !important;
+  float: left;
+  display: inline-block;
+  color: rgb(100,100,100);
+}
+.dajo_header td{
+  color: rgb(100,100,100);
+  text-shadow: 0px 1px 0px rgba(252,252,252,0.6);
+  font-size: 16px !important;
+  font-family: "verdana", arial !important;
+}
+
+.dajo_header td .dajo_span_logged_in_name{
+  color: rgb(33,66,99);
+  font-size: 12px;
+}
+
+.dajo_header td .dajo_project_label{
+  font-size: 16px !important;
+  font-weight: bold;
+}
+
+.login-info-right,
+.login-info-middle,
+.login-info-left{
+  vertical-align: middle;
+}
+
+form .dajo_project_select{
+  color: rgb(80,80,80);
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid rgb(210,210,210);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  height: 30px;
+  outline: none;
+}
+
+form .dajo_project_select:hover{
+  border: 1px solid rgb(180,180,180);
+  background-color: rgb(250,250,250);
+}
+
+form .dajo_project_select:focus{
+	border: 1px solid rgb(100,100,100);
+	background-color: rgb(232,232,232);
+}
+
+form .dajo_project_submit,
+form .dajo_project_submit,
+.dajo_jump-button-small{
+  text-shadow: 0px 1px 0px rgba(252,252,252,0.6);
+	border: 1px solid rgb(210,210,210);
+	background-color: rgb(200,200,200);
+  color: rgb(80,80,80);
+  padding: 5px 20px 5px 20px;
+  margin: 0 10px 1px 10px;
+  font-size: 15px;
+  font-family: "verdana", arial;
+  outline: none; /*Autocomplette border color off*/
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  cursor: hand;
+  cursor: pointer;
+}
+
+form .dajo_project_submit:hover,
+form .dajo_project_submit:hover,
+.dajo_jump-button-small:hover{
+	border: 1px solid rgb(100,100,100);
+	background-color: rgb(232,232,232);
+  -webkit-transition: background-color 0.4s ease;
+  -moz-transition: background-color 0.4s ease;
+  -ms-transition: background-color 0.4s ease;
+  -o-transition: background-color 0.4s ease;
+  transition: background-color 0.4s ease;
+}
+
+.dajo_rss_img{
+  border-style: none;
+  vertical-align: middle;
+  margin-bottom: 6px;
+}
+/* -HEADER */
+
+/* +MENÜ */
+.dajo_menu{
+  width: 100%;
+  border: 1px solid rgb(210,210,210);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  background-color: rgb(232,232,232);
+  color: rgb(80,80,80);
+}
+
+.dajo_menu td{
+  text-align: center;
+	width: 100%;
+	padding: 5px;
+}
+
+.dajo_menu a:link,
+.dajo_menu a:visited,
+.dajo_menu a:active{
+  text-shadow: 0px 1px 0px rgba(252,252,252,0.6);
+  font-size: 14px !important;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(33,66,99);
+}
+
+.dajo_menu a:hover{
+  color: rgb(240,70,80);
+  -webkit-transition: color 0.4s ease;
+  -moz-transition: color 0.4s ease;
+  -ms-transition: color 0.4s ease;
+  -o-transition: color 0.4s ease;
+  transition: color 0.4s ease;
+}
+
+.dajo_menu_jump{
+  background-color: rgb(232,232,232);
+  color: rgb(80,80,80);
+}
+
+.dajo_jump-input-small{
+  text-shadow: 0px 1px 0px rgba(252,252,252,0.6);
+	border: 1px solid rgb(210,210,210);
+	background-color: #ffffff;
+  width: 70px;
+  height: 30px;
+  outline: none;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  font-size: 16px !important;
+  font-style: italic;
+  color: rgb(80,80,80);
+}
+
+.dajo_jump-input-small:hover{
+	border: 1px solid rgb(180,180,180);
+	background-color: rgb(250,250,250);
+}
+
+..dajo_jump-input-small:focus{
+	border: 1px solid rgb(100,100,100);
+	background-color: rgb(232,232,232);
+}
+
+.bracket-link{
+  text-align: right;
+  font-weight: bold;
+}
+
+.bracket-link a:link,
+.bracket-link a:visited,
+.bracket-link a:active{
+  display: inline-block;
+  padding: 5px 8px 5px 8px;
+  border: 1px solid rgb(210,210,210);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  background-color: rgb(232,232,232);
+  font-size: 12px !important;
+  font-style: italic;
+  font-weight: normal;
+  text-decoration: none;
+  color: rgb(33,66,99);
+}
+
+.bracket-link a:hover{
+  color: rgb(240,70,80);
+  -webkit-transition: color 0.4s ease;
+  -moz-transition: color 0.4s ease;
+  -ms-transition: color 0.4s ease;
+  -o-transition: color 0.4s ease;
+  transition: color 0.4s ease;
+}
+/* -MENÜ */
+

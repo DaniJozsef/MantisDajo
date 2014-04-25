@@ -1,0 +1,56 @@
+.form-title .subtle:link,
+.form-title .subtle:visited,
+.form-title .subtle:active{
+  display: inline-block;
+  padding: 5px 8px 5px 8px;
+  border: 1px solid rgb(210,210,210);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  background-color: rgb(232,232,232);
+  font-size: 12px !important;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(33,66,99);
+}
+
+.form-title .subtle:hover{
+  color: rgb(240,70,80);
+  -webkit-transition: color 0.4s ease;
+  -moz-transition: color 0.4s ease;
+  -ms-transition: color 0.4s ease;
+  -o-transition: color 0.4s ease;
+  transition: color 0.4s ease;
+}
+
+.width100, 
+.width90,
+.width75,
+.width50{
+  /*color: rgb(80,80,80);*/
+  background-color: rgb(255,255,255) !important;
+  border: 1px solid rgb(210,210,210) !important;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.width100 a:link, .width90 a:link, .width75 a:link, .width50 a:link,
+.width100 a:visited, .width90 a:visited, .width75 a:visited, .width50 a:visited,
+.width100 a:active, .width90 a:active, .width75 a:active, .width50 a:active{
+  font-size: 12px !important;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(33,66,99);
+}
+
+.width100 a:hover, .width90 a:hover, .width75 a:hover, .width50 a:hover{
+  color: rgb(240,70,80);
+  -webkit-transition: color 0.4s ease;
+  -moz-transition: color 0.4s ease;
+  -ms-transition: color 0.4s ease;
+  -o-transition: color 0.4s ease;
+  transition: color 0.4s ease;
+}

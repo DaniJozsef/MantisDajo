@@ -1,0 +1,338 @@
+.dajo_owerview{
+  width: 75% !important;
+  color: rgb(180,180,180);
+  background-color: rgb(255,255,255);
+  border: 1px solid rgb(210,210,210);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.dajo_form-title{
+  color: rgb(100,100,100);
+  text-shadow: 0px 1px 0px rgba(252,252,252,0.6);
+  font-size: 16px !important;
+  font-family: "verdana", arial !important;
+}
+
+.row-1 .category{
+  color: rgb(100,100,100);
+  background-color: rgb(239,228,176);
+  text-shadow: 0px 1px 0px rgba(252,252,252,0.6);
+  font-size: 14px !important;
+  font-family: "verdana", arial !important;
+}
+
+.row-2 .category{
+  color: rgb(100,100,100);
+  background-color: rgb(245,2258,203);
+  text-shadow: 0px 1px 0px rgba(252,252,252,0.6);
+  font-size: 14px !important;
+  font-family: "verdana", arial !important;
+}
+
+.row-1,
+tr .row-1{
+  text-shadow: 0px 1px 0px rgba(252,252,252,0.6) !important;
+  font-size: 14px !important;
+  font-family: "verdana", arial !important;
+  color: rgb(100,100,100) !important;
+  background-color: rgb(245,245,245) !important;
+}
+
+.row-2,
+tr .row-2{
+  text-shadow: 0px 1px 0px rgba(252,252,252,0.6) !important;
+  font-size: 14px !important;
+  font-family: "verdana", arial !important;
+  color: rgb(100,100,100) !important;
+  background-color: rgb(235,235,235) !important;
+}
+
+/* +TABLE FORM ELEMENT*/
+form input[type="email"], td input[type="email"], 
+form input[type="number"], td input[type="number"], 
+form input[type="password"], td input[type="password"],
+form input[type="tel"], td input[type="tel"],
+form input[type="url"], td input[type="url"],
+form input[type="text"], td input[type="text"]{
+  text-shadow: 0px 1px 0px rgba(252,252,252,0.6);
+	border: 1px solid rgb(210,210,210);
+	background-color: #ffffff;
+  padding: 0 5px 0 5px;
+  height: 30px;
+  outline: none;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  font-size: 16px !important;
+  font-style: italic;
+  color: rgb(80,80,80);
+}
+
+form input[type="email"]:hover, td input[type="email"]:hover, 
+form input[type="number"]:hover, td input[type="number"]:hover, 
+form input[type="password"]:hover,  td input[type="password"]:hover,
+form input[type="tel"]:hover, td input[type="tel"]:hover,
+form input[type="url"]:hover,  td input[type="url"]:hover,
+form input[type="text"]:hover, td input[type="text"]:hover{
+	border: 1px solid rgb(180,180,180);
+	background-color: rgb(250,250,250);
+}
+
+form input[type="email"]:focus, td input[type="email"]:focus, 
+form input[type="number"]:focus, td input[type="number"]:focus, 
+form input[type="password"]:focus, td input[type="password"]:focus,
+form input[type="tel"]:focus, td input[type="tel"]:focus,
+form input[type="url"]:focus, td input[type="url"]:focus,
+form input[type="text"]:focus, td input[type="text"]:focus{
+	border: 1px solid rgb(100,100,100);
+	background-color: rgb(232,232,232);
+}
+
+form input[type="button"],
+form input[type="submit"],
+form input[type="file"],
+td input[type="button"],
+td input[type="submit"],
+td input[type="file"]{
+  text-shadow: 0px 1px 0px rgba(252,252,252,0.6);
+	border: 1px solid rgb(210,210,210);
+	background-color: rgb(200,200,200);
+  color: rgb(80,80,80);
+  padding: 5px 20px 5px 20px;
+  font-size: 15px;
+  font-family: "verdana", arial;
+  outline: none; /*Autocomplette border color off*/
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  cursor: hand;
+  cursor: pointer;
+}
+
+form input[type="button"]:hover,
+form input[type="submit"]:hover,
+form input[type="file"]:hover,
+td input[type="button"]:hover,
+td input[type="submit"]:hover,
+td input[type="file"]:hover{
+	border: 1px solid rgb(100,100,100);
+	background-color: rgb(232,232,232);
+  -webkit-transition: background-color 0.4s ease;
+  -moz-transition: background-color 0.4s ease;
+  -ms-transition: background-color 0.4s ease;
+  -o-transition: background-color 0.4s ease;
+  transition: background-color 0.4s ease;
+}
+
+form select{
+  color: rgb(80,80,80);
+  font-size: 14px;
+  width: auto;
+  border: 1px solid rgb(210,210,210);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  height: 30px;
+  outline: none;
+}
+
+form select:hover{
+  border: 1px solid rgb(180,180,180);
+  background-color: rgb(250,250,250);
+}
+
+form select:focus{
+	border: 1px solid rgb(100,100,100);
+	background-color: rgb(232,232,232);
+}
+/* -TABLE FORM ELEMENT*/
+
+/* +CATEGORY ROWS*/
+tr.row-category2 {
+background-color: rgb(33,66,99);
+color: rgb(232,232,232);
+}
+
+.width100 tr.row-category2 a:link,
+.width100 tr.row-category2 a:visited,
+.width100 tr.row-category2 a:active{
+  font-size: 12px !important;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(232,232,232);
+}
+
+.width100 tr.row-category2 a:hover{
+  text-shadow: 0px 1px 0px rgba(1,1,1,0.6);
+  color: rgb(239,228,176);
+  -webkit-transition: color 0.4s ease;
+  -moz-transition: color 0.4s ease;
+  -ms-transition: color 0.4s ease;
+  -o-transition: color 0.4s ease;
+  transition: color 0.4s ease;
+}
+
+.small-caption a:link, .row-1 a:link, .row-2 a:link, . a:link,
+.small-caption a:visited, .row-1 a:visited, .row-2 a:visited,
+.small-caption a:active, .row-1 a:active, .row-2 a:active{
+  font-size: 12px !important;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(33,66,99);
+}
+
+.small-caption a:hover, .row-1 a:hover, .row-2 a:hover{
+  color: rgb(240,70,80);
+  -webkit-transition: color 0.4s ease;
+  -moz-transition: color 0.4s ease;
+  -ms-transition: color 0.4s ease;
+  -o-transition: color 0.4s ease;
+  transition: color 0.4s ease;
+}
+
+tr .row-category, .category,
+.bugnote .bugnote-public,
+table .row-category-history {
+background-color: rgb(0,162,232);
+color: rgb(240,240,240);
+}
+
+.row-category a:link,
+.row-category a:visited,
+.row-category a:active,
+#buglist .row-category a:link,
+#buglist .row-category a:visited,
+#buglist .row-category a:active,
+.bugnote .bugnote-public a:link,
+.bugnote .bugnote-public a:visited,
+.bugnote .bugnote-public a:active{
+  font-size: 14px !important;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(240,240,240);
+}
+#buglist .row-category a:link,
+#buglist .row-category a:visited,
+#buglist .row-category a:active{
+  text-shadow: none;
+}
+
+.row-category a:hover,
+#buglist .row-category a:hover,
+.bugnote .bugnote-public a:hover{
+  text-shadow: 0px 1px 0px rgba(252,252,252,0.6);
+  color: rgb(1,62,203);
+  -webkit-transition: color 0.4s ease;
+  -moz-transition: color 0.4s ease;
+  -ms-transition: color 0.4s ease;
+  -o-transition: color 0.4s ease;
+  transition: color 0.4s ease;
+}
+/* -CATEGORY ROWS*/
+
+/* +BUGLIST*/
+#buglist, .hide{
+  color: rgb(1,1,1) !important;
+  text-shadow: 0px 1px 0px rgba(252,252,252,0.6);
+}
+#buglist a:link, .hide a:link,
+#buglist a:visited, .hide a:visited,
+#buglist a:active, .hide a:active{
+  text-shadow: 0px 1px 0px rgba(252,252,252,0.6);
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(33,66,99);
+}
+
+#buglist a:hover, .hide a:hover{
+  color: rgb(240,70,80);
+  -webkit-transition: color 0.4s ease;
+  -moz-transition: color 0.4s ease;
+  -ms-transition: color 0.4s ease;
+  -o-transition: color 0.4s ease;
+  transition: color 0.4s ease;
+}
+/* -BUGLIST*/
+
+/* +EMAIL FOOTER*/
+address a:link,
+address a:visited,
+addresst a:active{
+  text-shadow: 0px 1px 0px rgba(252,252,252,0.6);
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(33,66,99);
+}
+
+address a:hover{
+  color: rgb(240,70,80);
+  -webkit-transition: color 0.4s ease;
+  -moz-transition: color 0.4s ease;
+  -ms-transition: color 0.4s ease;
+  -o-transition: color 0.4s ease;
+  transition: color 0.4s ease;
+}
+/* -EMAIL FOOTER*/
+
+/* +ROADMAP*/
+tt{
+  color: rgb(120,120,120);
+}
+tt a:link,
+tt a:visited,
+tt a:active{
+  text-shadow: 0px 1px 0px rgba(252,252,252,0.6);
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(33,66,99);
+}
+
+tt a:hover{
+  color: rgb(240,70,80);
+  -webkit-transition: color 0.4s ease;
+  -moz-transition: color 0.4s ease;
+  -ms-transition: color 0.4s ease;
+  -o-transition: color 0.4s ease;
+  transition: color 0.4s ease;
+}
+/* -ROADMAP*/
+
+/* +BUGNOTE*/
+.bugnote .bugnote-public{
+  width: 30%;
+}
+/* -BUGNOTE*/
+
+/* +RECENTLY_VISITED*/
+.recently_visited{
+  text-shadow: 0px 1px 0px rgba(252,252,252,0.6);
+  font-size: 15px;
+  font-family: "verdana", arial;
+}
+
+.recently_visited a:link,
+.recently_visited a:visited,
+.recently_visited a:active{
+  text-shadow: 0px 1px 0px rgba(252,252,252,0.6);
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(33,66,99);
+}
+
+.recently_visited a:hover{
+  color: rgb(240,70,80);
+  -webkit-transition: color 0.4s ease;
+  -moz-transition: color 0.4s ease;
+  -ms-transition: color 0.4s ease;
+  -o-transition: color 0.4s ease;
+  transition: color 0.4s ease;
+}
+/* -RECENTLY_VISITED*/
