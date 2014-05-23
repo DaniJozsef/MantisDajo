@@ -31,3 +31,5 @@ if ( auth_is_user_authenticated() ) {
 } else {
 	print_header_redirect( 'login_page.php' );
 }
+//Dajo build
+?>
